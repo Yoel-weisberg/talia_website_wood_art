@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 33 60% 98%;
+    --foreground: 30 20% 20%;
+
+    --card: 33 60% 98%;
+    --card-foreground: 30 20% 20%;
+
+    --popover: 33 60% 98%;
+    --popover-foreground: 30 20% 20%;
+
+    --primary: 33 32% 84%;
+    --primary-foreground: 30 20% 20%;
+
+    --secondary: 98 36% 90%;
+    --secondary-foreground: 30 20% 30%;
+
+    --muted: 98 36% 90%;
+    --muted-foreground: 30 15% 45%;
+
+    --accent: 33 32% 84%;
+    --accent-foreground: 30 20% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 33 25% 80%;
+    --input: 33 25% 80%;
+    --ring: 33 32% 70%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 33 60% 98%;
+    --sidebar-foreground: 30 20% 25%;
+    --sidebar-primary: 33 32% 84%;
+    --sidebar-primary-foreground: 30 20% 20%;
+    --sidebar-accent: 98 36% 90%;
+    --sidebar-accent-foreground: 30 20% 25%;
+    --sidebar-border: 33 25% 80%;
+    --sidebar-ring: 33 32% 70%;
+  }
+
+  .dark {
+    --background: 30 15% 12%;
+    --foreground: 33 60% 95%;
+
+    --card: 30 15% 15%;
+    --card-foreground: 33 60% 95%;
+
+    --popover: 30 15% 15%;
+    --popover-foreground: 33 60% 95%;
+
+    --primary: 33 32% 60%;
+    --primary-foreground: 30 15% 15%;
+
+    --secondary: 98 20% 25%;
+    --secondary-foreground: 33 60% 85%;
+
+    --muted: 30 10% 20%;
+    --muted-foreground: 33 15% 60%;
+
+    --accent: 33 32% 25%;
+    --accent-foreground: 33 60% 85%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 10% 25%;
+    --input: 30 10% 25%;
+    --ring: 33 32% 60%;
+
+    --sidebar-background: 30 15% 12%;
+    --sidebar-foreground: 33 60% 85%;
+    --sidebar-primary: 33 32% 60%;
+    --sidebar-primary-foreground: 30 15% 15%;
+    --sidebar-accent: 98 20% 25%;
+    --sidebar-accent-foreground: 33 60% 85%;
+    --sidebar-border: 30 10% 25%;
+    --sidebar-ring: 33 32% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-lg;
+  }
+}
