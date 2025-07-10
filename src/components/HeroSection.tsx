@@ -56,7 +56,7 @@ const HeroSection = () => {
                 {/* Photo */}
         <div className="flex-shrink-0 flex justify-center items-center">
           <img
-            src="public/products/wood_bride_bless/DSCN7240.JPG"
+            src="/products/wood_bride_bless/DSCN7240.JPG"
             alt="אמנות על עץ"
             className="w-64 h-72 md:w-[500px] md:h-[600px] rounded-lg object-cover shadow-2xl border-0 border-accent"
           />
