@@ -48,7 +48,7 @@ const HeroSection = () => {
                 })
               }
             >
-              קראי עליי
+              קצת עליי
             </Button>
           </div>
         </div>
