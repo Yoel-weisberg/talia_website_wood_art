@@ -1,57 +1,51 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-wood-light">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-black mb-6">
-            קצת עליי 
-          </h2>
-          <div className="w-24 h-1 bg-black mx-auto"></div>
-        </div>
+    <section id="about" className="flex-col justify-center align-middle py-20 bg-wood-light font-serif">
+      <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-10 text-center">
+        קצת עליי :)
+      </h1>
+      <div
+        dir="rtl" // Sets the text direction to right-to-left for Hebrew
+        className=" w-11/12 mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transition-shadow duration-300 hover:shadow-xl"
+      >
+        <div className="flex flex-col md:flex-row items-center">
+          {/* Image Section: Appears on the left for medium screens and up */}
+          {/* Text Section: Stacks on mobile, on the right for medium screens and up */}
+          <div className="p-8 sm:p-12 md:w-1/2 flex flex-col justify-center">
+            {/* Main Heading */}
+            <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center sm:text-right">
+              היי, אני תהלה קפלן :)
+            </h1>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center font-serif">
-          <div className="space-y-6">
-            <Card className="p-8 hover-lift">
-              <CardContent className="p-0 ">
-                <h3 className="text-2xl font-serif font-bold text-black mb-4">
-                  הסיפור שלי
-                </h3>
-                <p className="text-lg leading-relaxed mb-4 text-">
-                  אני אמנית עץ מישראל עם ניסיון של למעלה מ-10 שנים ביצירת פיסות אמנות ייחודיות. 
-                  התחלתי את דרכי כתחביב ומאז הפכה למקצוע המעניק לי סיפוק עצום.
-                </p>
-                <p className="text-lg leading-relaxed ">
-                  אני מתמחה ביצירת כלי בית פונקציונליים, קישוטים אמנותיים וכלי עבודה המשלבים 
-                  יופי ופונקציונליות. כל יצירה נעשית בעבודת יד עם תשומת לב לכל פרט.
-                </p>
-              </CardContent>
-            </Card>
+            {/* Decorative Divider */}
+            <hr className="w-24 h-1 bg-teal-500 border-0 rounded-full my-6 mx-auto sm:mx-0" />
+
+            {/* Content Paragraphs */}
+            <div className="space-y-5 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+              <p>
+                מאז שאני זוכרת את עצמי אני מחוברת לעולם היצירה והאמנות. התחלתי את הדרך שלי במתנות מקוריות לחברות, ומאז התחביב הפך לעסק שלי :)
+              </p>
+              <p>
+                עם השנים, גיליתי את הקסם והיופי הטמונים בעבודה על עץ. לכל פיסת עץ יש את הייחודיות והטבעיות שלה - הצורה, הצבע, המרקם... ועל גבי זה אני משלבת את הנגיעה האישית שלי, המעניקה חיים וצבעוניות חדשה ליצירה.
+              </p>
+              <p className="font-semibold text-teal-600 dark:text-teal-400">
+                אז אני כאן כדי להגשים את הרצונות שלכם! ליצור עבורכם מתנה ייחודית ומרגשת שתלווה אתכם באירועים הגדולים, והקטנים :)
+              </p>
+            </div>
           </div>
 
-          <div className="space-y-6">
-            <Card className="p-8 hover-lift">
-              <CardContent className="p-0">
-                <h3 className="text-2xl font-serif font-bold text-black mb-4">
-                  הפילוסופיה שלי
-                </h3>
-                <p className="text-lg leading-relaxed text-muted-foreground mb-4">
-                  אני מאמינה שעץ הוא חומר חי המספר סיפור. כל פיסת עץ מביאה עמה את ההיסטוריה שלה - 
-                  השנים, מזג האוויר, והטבע ששיכנו אותה.
-                </p>
-                <p className="text-lg leading-relaxed text-muted-foreground">
-                  המטרה שלי היא לשמר את היופי הטבעי של העץ תוך יצירת פריטים שימושיים 
-                  שיכולים להעשיר את הבית ולהביא חמימות טבעית לחלל המגורים.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="md:w-1/2">
+            <img
+              className="h-64 w-full object-cover md:h-full"
+              src="https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250706-WA0069.jpg"
+              alt="An artistic workshop with wood and tools"
+              onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/600x800/e0e0e0/333333?text=Image+Not+Found'; }}
+            />
           </div>
         </div>
-
-      
       </div>
     </section>
   );

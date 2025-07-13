@@ -77,12 +77,15 @@ const portfolioData = {
   "ברכות כלה על תוף": [
     {
       id: "drum-bless-1",
-      title: "ללא שם כרגע",
+      title: "רוני ויצחק",
       description: "עיצוב ייחודי של ברכת כלה על תוף מרים.",
       images: [
         "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0027-01.jpeg",
         "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0028-01.jpeg",
-        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0030-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0030-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250706-WA0068.jpg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250706-WA0069.jpg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250706-WA0070.jpg",
       ]
     }
   ],
@@ -266,6 +269,7 @@ export default function ProductGallery() {
                     <img
                       src={project.images[0]}
                       alt={project.title}
+                      loading='lazy'
                       className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                       onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/800x600/fbf8f5/8c7a6b?text=Image+Not+Found'; }}
                     />
