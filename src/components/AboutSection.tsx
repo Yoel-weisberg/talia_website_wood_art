@@ -4,9 +4,6 @@ import { Card, CardContent } from '@/components/ui/card';
 const AboutSection = () => {
   return (
     <section id="about" className="flex-col justify-center align-middle py-20 bg-wood-light font-serif">
-      <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-10 text-center">
-        קצת עליי :)
-      </h1>
       <div
         dir="rtl" // Sets the text direction to right-to-left for Hebrew
         className=" w-11/12 mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transition-shadow duration-300 hover:shadow-xl"
