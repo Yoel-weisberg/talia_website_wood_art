@@ -52,11 +52,9 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/80 flex items-center justify-center gap-2">
-            © 2024 אמנות על עץ. כל הזכויות שמורות. נוצר עם 
-            <Heart className="h-4 w-4 fill-current" />
-            בישראל
-          </p>
+          <a href='https://wa.me/972584029549' className="underline  font-serif text-primary-foreground/80 flex items-center justify-center gap-2">
+             נבנה על ידי יואל ויסברג
+          </a>
         </div>
       </div>
     </footer>
