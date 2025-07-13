@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-black mb-6">
-            אודותי
+            קצת עליי 
           </h2>
           <div className="w-24 h-1 bg-black mx-auto"></div>
         </div>

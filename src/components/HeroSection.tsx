@@ -2,7 +2,6 @@ import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import bowlsData from '@/lib/products.json';
-
 const HeroSection = () => {
   // Example usage: you can use bowlsData.bowls in your component or pass it to children
   // For the HeroSection, you may not need product data directly, but this is how you import it.
@@ -56,9 +55,10 @@ const HeroSection = () => {
                 {/* Photo */}
         <div className="flex-shrink-0 flex justify-center items-center">
           <img
-            src="public/products/wood_bride_bless/DSCN7240.JPG"
+            src="https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7240.JPG"
             alt="אמנות על עץ"
             className="w-64 h-72 md:w-[500px] md:h-[600px] rounded-lg object-cover shadow-2xl border-0 border-accent"
+            loading="lazy"
           />
         </div>
       </div>

@@ -10,8 +10,8 @@ const portfolioData = {
       title: "אביב ומרים",
       description: "ברכת כלה על משטח עץ טבעי עם עיטורים.",
       images: [
-        "/products/wood_bride_bless/20250316_132548-01.jpeg",
-        "/products/wood_bride_bless/20250316_132635-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/20250316_132548-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/20250316_132635-01.jpeg",
       ]
     },
     {
@@ -19,9 +19,9 @@ const portfolioData = {
       title: "בתאל ומשה",
       description: "מבחר עיצובים של ברכת כלה על עץ.",
       images: [
-        "/products/wood_bride_bless/IMG-20250618-WA0001-01.jpeg",
-        "/products/wood_bride_bless/IMG-20250618-WA0002-01.jpeg",
-        "/products/wood_bride_bless/Screenshot_20250604-170303 (1).png",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20250618-WA0001-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20250618-WA0002-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/Screenshot_20250604-170303 (1).png",
       ]
     },
     {
@@ -29,7 +29,7 @@ const portfolioData = {
       title: "הלל ויהודה",
       description: "עבודות מיוחדות של ברכת כלה על עץ.",
       images: [
-        "/products/wood_bride_bless/IMG-20241224-WA0015-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20241224-WA0015-01.jpeg"
       ]
     },
     {
@@ -37,10 +37,10 @@ const portfolioData = {
       title: "יהודה ואביגיל",
       description: "התאמה אישית של ברכת הכלה.",
       images: [
-        "/products/wood_bride_bless/DSCN7149-01.jpeg",
-        "/products/wood_bride_bless/DSCN7185-01.jpeg",
-        "/products/wood_bride_bless/DSCN7190-01.jpeg",
-        "/products/wood_bride_bless/IMG-20250623-WA0040-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7149-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7185-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7190-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20250623-WA0040-01.jpeg"
       ]
     },
     {
@@ -48,12 +48,12 @@ const portfolioData = {
       title: "יוסף ושמחה",
       description: "סגנונות שונים של ברכות.",
       images: [
-        "/products/wood_bride_bless/DSCN7233.JPG",
-        "/products/wood_bride_bless/DSCN7234.JPG",
-        "/products/wood_bride_bless/DSCN7239.JPG",
-        "/products/wood_bride_bless/DSCN7240.JPG",
-        "/products/wood_bride_bless/DSCN7245.JPG",
-        "/products/wood_bride_bless/DSCN7246 (1).JPG"
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7233.JPG",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7234.JPG",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7239.JPG",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7240.JPG",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7245.JPG",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/DSCN7246 (1).JPG"
       ]
     },
     {
@@ -61,15 +61,15 @@ const portfolioData = {
       title: "עז ושרה",
       description: "סגנונות שונים של ברכות.",
       images: [
-        "/products/wood_bride_bless/IMG-20231205-WA0081-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20231205-WA0081-01.jpeg",
       ]
     },    {
       id: "wood-bless-7",
       title: "צור ותומר",
       description: "סגנונות שונים של ברכות.",
       images: [
-        "/products/wood_bride_bless/IMG-20230830-WA0037-01.jpeg",
-        "/products/wood_bride_bless/IMG-20230830-WA0038-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20230830-WA0037-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/wood_bride_bless/IMG-20230830-WA0038-01.jpeg"
       ]
     },
 
@@ -80,9 +80,9 @@ const portfolioData = {
       title: "ללא שם כרגע",
       description: "עיצוב ייחודי של ברכת כלה על תוף מרים.",
       images: [
-        "/products/drum_bride_bless/IMG-20250424-WA0027-01.jpeg",
-        "/products/drum_bride_bless/IMG-20250424-WA0028-01.jpeg",
-        "/products/drum_bride_bless/IMG-20250424-WA0030-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0027-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0028-01.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/drum_bride_bless/IMG-20250424-WA0030-01.jpeg"
       ]
     }
   ],
@@ -92,7 +92,7 @@ const portfolioData = {
       title: "ברכת הדלקת נרות",
       description: "ברכת הדלקת נרות שבת על עץ.",
       images: [
-        "/products/light_candle/IMG-20250323-WA0008-02.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/light_candle/IMG-20250323-WA0008-02.jpeg"
       ]
     }
   ],
@@ -102,7 +102,7 @@ const portfolioData = {
       title: "ציור מותאם אישית",
       description: "ציור על עץ לפי בקשת הלקוח.",
       images: [
-        "/products/drawing_custom/DSCN7335-02.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/drawing_custom/DSCN7335-02.jpeg"
       ]
     }
   ],
@@ -112,7 +112,7 @@ const portfolioData = {
       title: "משפט השראה",
       description: "כתיבת משפטי השראה על עץ.",
       images: [
-        "/products/sentence_custom/IMG-20250310-WA0031-01.jpeg"
+        "https://static.yoelweisberg.com/tehilawebsite/products/sentence_custom/IMG-20250310-WA0031-01.jpeg"
       ]
     }
   ]
@@ -161,6 +161,7 @@ const Lightbox = ({ project, activeIndex, onClose, onPrev, onNext }) => {
             src={project.images[activeIndex]}
             alt={`${project.title} - image ${activeIndex + 1}`}
             className="max-h-[80vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
+            loading='lazy'
           />
           <div className="text-white text-center mt-4 p-2 bg-black bg-opacity-50 rounded-md">
             <p className="font-bold font-serif text-lg">{project.title}</p>
