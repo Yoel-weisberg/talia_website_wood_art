@@ -118,8 +118,29 @@ const portfolioData = {
         "https://static.yoelweisberg.com/tehilawebsite/products/sentence_custom/IMG-20250310-WA0031-01.jpeg"
       ]
     }
+  ],
+  "ברכת הבית": [
+    {
+      id: "home-bless-1",
+      title: "ברכת הבית",
+      description: "ברכת הבית מעוצבת על עץ.",
+      images: [
+        "https://static.yoelweisberg.com/tehilawebsite/products/blessing_of_home/IMG-20250711-WA0024.jpg"
+      ]
+    }
+  ],
+  "סדנאות אומנות": [
+    { 
+      id: "art-workshop-1",
+      title: "סדנת אומנות",
+      description: "סדנאות יצירה עם עץ.",
+      images: [
+        "https://static.yoelweisberg.com/tehilawebsite/products/workshops/WhatsApp Image 2025-07-14 at 2.44.43 AM.jpeg",
+        "https://static.yoelweisberg.com/tehilawebsite/products/workshops/WhatsApp Image 2025-07-14 at 2.45.52 AM.jpeg"
+      ]
+    }
   ]
-};
+};  
 
 
 // --- Lightbox Component ---

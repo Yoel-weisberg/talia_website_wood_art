@@ -17,7 +17,7 @@ const SocialMenu = () => {
     },
     {
       icon: FaPhone,
-      href: "tel:+972123456789",
+      href: "tel:+972544286884",
       label: "Phone",
       color: "hover:bg-accent"
     }
