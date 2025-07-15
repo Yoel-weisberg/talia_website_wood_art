@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="space-y-2 text-primary-foreground/80 font-serif">
               <p>טלפון: 054-428-6884</p>
               <p>מייל: tiltul5761@gmail.com</p>
-              <p>מיקום: מרכז הארץ, ישראל</p>
+              <p>מיקום: עפרה, ישראל</p>
             </div>
           </div>
         </div>
